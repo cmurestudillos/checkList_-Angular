@@ -4,7 +4,7 @@
     "name": "Carlos Mur",
     "email": "cmurestudillos@gmail.com"
   },
-  "description": "Gestor de tareas.",
+  "description": "CheckList es la forma de organizar tus tareas del dia a dia de una forma sencilla y ordenada.",
   "main": "electron/main.js",
   "build": {
     "appId": "com.electron.checklist",
@@ -20,7 +20,7 @@
       "output": "release"
     }
   },
-  "version": "0.2.3",
+  "version": "1.2.6",
   "scripts": {
     "ng": "ng",
     "start": "ng serve",

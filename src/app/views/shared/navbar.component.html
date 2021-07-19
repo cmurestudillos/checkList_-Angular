@@ -16,14 +16,20 @@
         <input hidden (change)="onFileSelected($event)" #fileInput type="file" id="file">        
         <button mat-menu-item disabled>
           <mat-icon>arrow_downward</mat-icon>
-          <span><a id="download" href="" (click)="downloadData()" download="localstorageData.json">Exportar Listas</a></span>
+          <span><a id="download" href="" (click)="downloadData()" download="checklist.json">Exportar Listas</a></span>
+        </button>
+        <button mat-menu-item disabled>
+          <mat-icon>desktop_windows</mat-icon>
+          <span><a href="download/checklist.zip" download>Versi&oacute;n PC</a></span>
         </button>
         <button mat-menu-item disabled>
           <mat-icon>trending_up</mat-icon>
           <span><i><b>Version: {{ appVersion }}</b></i></span>
         </button>
         <button mat-menu-item disabled>
-          <span><i>Copyright © - Carlos Mur</i></span>
+          <span>
+            <i>Copyright © <a href="https://www.cmurestudillos.es" target="_blank" rel="noopener noreferrer"> <strong>Carlos Mur</strong> </a></i>
+          </span>
         </button>
       </mat-menu>
   </mat-toolbar-row>
